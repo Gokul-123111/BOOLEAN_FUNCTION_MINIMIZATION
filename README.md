@@ -63,12 +63,16 @@ RegisterNumber:24900980
 
 
 **RTL realization**
-![image](https://github.com/user-attachments/assets/4bf05445-58f9-4929-8de6-bde0018722dc)
+![image](https://github.com/user-attachments/assets/0b0362ed-c35d-414f-ade0-89a440f16682)
+![image](https://github.com/user-attachments/assets/551d9b9c-3d34-4cf7-a931-83b8d1e129bb)
+
 
 
 **Output:**
 **Waveform**
-![image](https://github.com/user-attachments/assets/07493375-a2c6-4cf6-b12e-8a33e85d298f)
+![image](https://github.com/user-attachments/assets/b591e927-bf30-4da5-8840-3ed6089d4bde)
+
+![image](https://github.com/user-attachments/assets/cd359de1-a025-4d60-aa41-ba6538883eb5)
 
 **Result:**
 
