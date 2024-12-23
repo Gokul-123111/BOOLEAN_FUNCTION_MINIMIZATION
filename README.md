@@ -30,28 +30,33 @@ Hardware – PCs, Cyclone II , USB flasher
 
 5.	For different input combinations generate the timing diagram.
 
+**Boolean Minimization**
+![WhatsApp Image 2024-12-23 at 08 38 07_7a5e7434](https://github.com/user-attachments/assets/7e40e511-1c44-499d-ba77-d1d6242f1dc3)
+![WhatsApp Image 2024-12-23 at 08 38 07_1db6be56](https://github.com/user-attachments/assets/7baa26d5-9442-4f0e-a9d8-66502eb670c0)
+
+
+
+**Truth Table**
+![WhatsApp Image 2024-12-23 at 08 38 30_38445c90](https://github.com/user-attachments/assets/386e57f8-518a-4f9f-91f0-f894f1e2bba4)
 
 **Program:**
 
-~~/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-module Boolean_min(A,B,C,D,W,X,Y,Z,F1,F2);
-input A,B,C,D,W,X,Y,Z;
-wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
-output F1,F2;
-assign x1=(~A)&(~B)&(~C)&(~D);
-assign x2=(A)&(~C)&(~D);
-assign x3=(~B)&(C)&(~D);
-assign x4=(~A)&(B)&(C)&(D);
-assign x5=(B)&(~C)&(D);
-assign x6=(X)&(~Y)&(Z);
-assign x7=(~X)&(~Y)&(Z);
-assign x8=(~W)&(X)&(Y);
-assign x9=(W)&(~X)&(Y);
-assign x10=(W)&(X)&(Y);
-assign F1=x1|x2|x3|x4|x5;
-assign F2=x6|x7|x8|x9|x10;
+/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+```
+module DE2(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
 endmodule
+```
+
+```
+module DE2(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2=((~y & z)|( w & y )|(x & y));
+endmodule
+```
 
 Developed by: Gokul S
 RegisterNumber:24900980
@@ -61,11 +66,8 @@ RegisterNumber:24900980
 ![image](https://github.com/user-attachments/assets/4bf05445-58f9-4929-8de6-bde0018722dc)
 
 
-**Truth Table
-![image](https://github.com/user-attachments/assets/9620b6bc-51df-4eac-82a3-4e96ced989e5)
-
 **Output:**
-**Timing Diagram**
+**Waveform**
 ![image](https://github.com/user-attachments/assets/07493375-a2c6-4cf6-b12e-8a33e85d298f)
 
 **Result:**
