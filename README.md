@@ -31,7 +31,9 @@ Hardware – PCs, Cyclone II , USB flasher
 5.	For different input combinations generate the timing diagram.
 
 **Boolean Minimization**
+## F1
 ![WhatsApp Image 2024-12-23 at 08 38 07_7a5e7434](https://github.com/user-attachments/assets/7e40e511-1c44-499d-ba77-d1d6242f1dc3)
+## F2
 ![WhatsApp Image 2024-12-23 at 08 38 07_1db6be56](https://github.com/user-attachments/assets/7baa26d5-9442-4f0e-a9d8-66502eb670c0)
 
 
@@ -63,15 +65,18 @@ RegisterNumber:24900980
 
 
 **RTL realization**
+## F1
 ![image](https://github.com/user-attachments/assets/0b0362ed-c35d-414f-ade0-89a440f16682)
+#f2
 ![image](https://github.com/user-attachments/assets/551d9b9c-3d34-4cf7-a931-83b8d1e129bb)
 
 
 
 **Output:**
 **Waveform**
+## F1
 ![image](https://github.com/user-attachments/assets/b591e927-bf30-4da5-8840-3ed6089d4bde)
-
+## F2
 ![image](https://github.com/user-attachments/assets/cd359de1-a025-4d60-aa41-ba6538883eb5)
 
 **Result:**
